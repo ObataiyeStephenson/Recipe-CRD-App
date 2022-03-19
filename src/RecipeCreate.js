@@ -18,7 +18,6 @@ function RecipeCreate({ recipes, setRecipes }) {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(form);
     setRecipes([...recipes, form]);
     setForm({ ...initialFormState });
   };
